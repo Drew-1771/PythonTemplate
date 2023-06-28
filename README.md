@@ -1,5 +1,5 @@
 # PythonTemplate
-This repository contains scripts to manage python environment.
+This repository contains scripts to manage python environments.
 
 ## make_env.bat
 This script generates a basic python virtual environment inside the current folder. Once a virtual environment is created, it cannot be easily moved, so it is intended you move this script to the desired folder where you want your environment to reside.
