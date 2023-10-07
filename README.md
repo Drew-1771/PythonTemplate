@@ -17,6 +17,6 @@ _Replace the \<anaconda_install_dir\> with where you installed anaconda_
 _Replace the \<env_dir> with the desired environment directory you want to activate_
 
 ## conda_activate example
-I have installed miniconda3 to **C:\Users\Rupert\miniconda3**, I use the command "conda env list" in the base anaconda prompt and see the environment I want to activate is located at **E:\Stuff\MoreStuff\env**. I would then change my conda_activate.bat to the following:
+I have installed miniconda3 to **C:\Users\Rupert\miniconda3**. I found this information by using the command "conda info" in cmd prompt and looked at the **base environment** variable. I use the command "conda env list" in cmd prompt and see the environment I want to activate is located at **E:\Stuff\MoreStuff\env**. I would then change my conda_activate.bat to the following:
 
-**start "Anaconda Prompt" cmd /k "C:\Users\Rupert\miniconda3\Scripts\activate.bat" E:\Stuff\MoreStuff\env**
+**start "Anaconda Prompt" cmd /k ""C:\Users\Rupert\miniconda3\Scripts\activate.bat" E:\Stuff\MoreStuff\env**"
