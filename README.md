@@ -2,10 +2,13 @@
 This repository contains scripts to manage python environments.
 
 ## make_env.bat
-This script generates a basic python virtual environment inside the current folder. Once a virtual environment is created, it cannot be easily moved, so it is intended you move this script to the desired folder where you want your environment to reside.
+This script generates a **basic** python virtual environment inside the current folder. Once a virtual environment is created, it cannot be easily moved, so it is intended you move this script to the desired folder where you want your environment to reside.
 
 ## activate.bat
 This script is a 1 click activation of the above environment. Should reside next to the env folder.
+
+## conda_create.bat
+This script generates a **conda** virtual environment inside the current folder. Once a virtual environment is created, it cannot be easily moved, so it is intended you move this script to the desired folder where you want your environment to reside.
 
 ## conda_activate.bat
 This script is a template for 1 click activation of a conda virtual environment. The format is below:
