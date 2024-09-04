@@ -1,1 +1,0 @@
-start "Anaconda Prompt" cmd /k ""<anaconda install dir>\Scripts\activate.bat" "<env_dir>""
