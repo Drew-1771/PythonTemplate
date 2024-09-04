@@ -1,3 +1,6 @@
+quick copy:\
+```git clone https://github.com/Drew-1771/PythonTemplate```
+
 # PythonTemplate
 This repository contains scripts to manage python environments.
 
