@@ -17,6 +17,6 @@ This script is a 1 click activation of the above environment. Should reside next
 
 This is a template for a main python module.
 
-## src/test.py
+## test/test.py
 
 This is a template for a unittest python module.
